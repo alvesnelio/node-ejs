@@ -6,11 +6,11 @@ app.set('view engine', 'ejs');
 
 // Rota principal
 app.get('/', function (req, res) {
-  res.render('./index');
+  res.render('./pages/index');
 });
 
 app.get('/about', function (req, res) {
-  res.render('./about');
+  res.render('./pages/about');
 });
 
 app.listen(8080);
